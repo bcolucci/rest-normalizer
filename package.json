@@ -1,0 +1,17 @@
+{
+  "name": "rest-normalizer",
+  "version": "1.0.0",
+  "author": "Brice Colucci",
+  "devDependencies": {
+    "istanbul": "^0.3.14",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha -R spec ./test/*.js",
+    "cover": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bcolucci/rest-normalizer.git"
+  }
+}
